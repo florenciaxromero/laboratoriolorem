@@ -1,0 +1,218 @@
+p { 
+color: #afddec;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+margin: 20px;
+}
+p1 { 
+        color: #383c3d;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        margin: 715px;
+        }
+p2 {
+    color: #383c3d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+p4 {
+    color: #383c3d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: bottom;
+    }
+
+body {
+    background-color: #f2f0eb;
+
+}
+
+.img-2 { 
+    width: 650px;
+    height: 450px;
+    margin-right: 25px;
+}
+
+.img-3 { 
+    width: 650px;
+    height: 450px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column ;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid grey;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid grey;
+    }
+
+.box{
+  border: 3px solid #333;
+  font-size: 20px; 
+  text-align: center;
+  margin: 15px;
+}
+
+.contenedor4 {
+background: url(Assets/img/bannerprovetas1.jpeg); 
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 65px;
+color: #333;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor5 {
+background: url(Assets/img/banner-laboratory-women-working.jpg); 
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 65px;
+color: #333;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.contenedor6 {
+background: url(Assets/img/banner-resultados.jpg); 
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding: 65px;
+color: #333;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .contenedor7 {
+    background: url(Assets/img/banner-servicios.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .contenedor8 {
+    background: url(Assets/img/contactobanner.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+
+.menu-horizontal {
+list-style: none;
+display: flex;
+justify-content: space-around;
+color:#30D5C8;
+}
+
+.menu-horizontal > li >a {
+display: block;
+padding: 15px 20px;
+color:whitesmoke;
+text-decoration: none;
+}
+
+.menu-horizontal >li:hover {
+    background-color: 179fcd;
+}
+
+.navbar {
+    max-width: 2000px;
+    margin: auto;
+    background-color: #333; 
+    font-size: 20px;
+    margin-top: 50px;
+    color:#30D5C8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logohome {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: lightslategray;
+    color: white;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+  .menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
