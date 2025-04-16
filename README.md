@@ -3,3 +3,4 @@ Los formularios redirigen a la Thank you page ya que no hay base de datos.
 Se utilizo @media, bootstrap, flex y grid.
 Todo el sitio es responsive.
 Se utilizo SCSS, partials, mixing, anidacion y variables
+Link de versel: https://laboratorioxyz.vercel.app/index.html
