@@ -3,4 +3,4 @@ Los formularios redirigen a la Thank you page ya que no hay base de datos.
 Se utilizo @media, bootstrap, flex y grid.
 Todo el sitio es responsive.
 Se utilizo SCSS, partials, mixing, anidacion y variables
-Se agrego SEO parcialmente personalizado (por falta de tiempo no llegue a trabajar a profundidad la personalizacion de SEO)
+Se agrego SEO personalizado
