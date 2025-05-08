@@ -135,7 +135,7 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 40vh;
   text-align: center;
   padding: 2rem;
 }
@@ -489,4 +489,19 @@ img {
   display: flex !important;
   align-items: center;
   justify-content: center;
+}
+.logo-img {
+  height: 40px !important;
+  width: auto !important;
+  max-height: 40px !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.navbar-brand .logo-img {
+  width: 120px;
+  height: auto;
+  display: block;
 }
